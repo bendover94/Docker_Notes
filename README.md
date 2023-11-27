@@ -55,6 +55,13 @@ docker build -t "fhtw/ros-noetic:latest" --rm .
 bash run_docker_from_local_build.sh
 ```
 
+<br>
+
+---
+---
+
+<br>
+
 # Install Docker in Windows
 
 - [install docker desktop (windows)](https://docs.docker.com/desktop/install/windows-install/)
