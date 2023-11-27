@@ -1,0 +1,23 @@
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Unignore files
+!*Makefile
+!*README.md
+
+# Ignore following dirs
+.catkin_tools/
+build/
+devel/
+logs/
+
+
+# Ignore files with specific extension
+*.o
+*.out
+*.pdf:Zone.Identifier
+*:Zone.Identifier
+*.mp4
