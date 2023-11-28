@@ -45,14 +45,49 @@ git checkout mre2_ear_ws2023
 git branch
 ```
 
-## Build container
+## Build Container
 ```bash
 docker build -t "fhtw/ros-noetic:latest" --rm .
 ```
 
-## Run container
+## Run FH Container (Ubuntu)
 ```bash
 bash run_docker_from_local_build.sh
+```
+
+## Run FH Container (Windows)
+```powershell
+Start-Process run_docker_from_local_build.sh -Wait
+```
+
+## Run Container (Ubuntu)
+```bash
+docker run <container-name>
+```
+
+## Run Container in Windows
+```powershell
+docker run -t <"container-name">
+```
+
+## Image
+### Delete
+```bash
+docker rmi <ID>
+```
+### Show Images
+```bash
+docker images
+```
+
+## Container
+### Delete Container
+```bash
+docker container rm <ID>
+```
+### Show Containers
+```bash
+docker container ps -a
 ```
 
 <br>
