@@ -36,8 +36,7 @@ reboot
 ```
 
 ## Clone Repo
-
-https://github.com/TW-Robotics/Docker-ROS/tree/mre2_ear_ws2023
+https://github.com/TW-Robotics/Docker-ROS.git
 
 ## Navigate to `Docker-Ros` (previously cloned repo) and change branch
 ```bash
