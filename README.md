@@ -61,7 +61,7 @@ Start-Process run_docker_from_local_build.sh -Wait
 
 ## Run Container (Ubuntu)
 ```bash
-docker run <container-name>
+docker run <container-ID>
 ```
 
 ## Run Container in Windows
